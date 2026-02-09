@@ -1,0 +1,17 @@
+# ═══════════════════════════════════════════════════════════
+# MapKnime Configuration — Vertex AI
+# ═══════════════════════════════════════════════════════════
+#
+# Fill in the values below before running avaliacao_IA.py
+#
+
+vertex_ai:
+  project_id: ""          # GCP Project ID (ex: "my-project-123")
+  region: "us-central1"   # GCP Region (ex: "us-central1", "southamerica-east1")
+  model: "gemini-2.5-pro" # Model name
+
+# Output preferences
+output:
+  max_line_length: 120
+  include_comments: true
+  include_type_hints: true

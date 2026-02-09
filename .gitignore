@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Agent / AI tooling
+.agent/
+.gemini/
+
+# Test / Cache
+.pytest_cache/
+.mypy_cache/
+
+# Temp extraction
+.temp_knime_extract/
+.temp_ag_kit/
+
+# Generated outputs (use --output-dir to regenerate)
+*.log
+KNIME_WORKFLOW_ANALYSIS.json
+KNIME_WORKFLOW_ANALYSIS.md
+KNIME_WORKFLOW_ANALYSIS.html
+analysis_summary.txt
+temporal_map.json
+loop_map.json
+logic_map.json
+fluxo_transpilado.py
+transpilation_report.md
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
